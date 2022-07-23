@@ -26,6 +26,7 @@ contract("KryptoBird", (accounts) => {
         it("deploys sucessfully", async () => {
             
             const address = contract.address;
+            console.log("address=====",address)
 
             assert.notEqual(address, '');
             assert.notEqual(address, null);
